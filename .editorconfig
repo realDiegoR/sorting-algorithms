@@ -1,0 +1,31 @@
+# Top-most EditorConfig file
+root = true
+
+# Match all files
+[*]
+
+# Set the character encoding
+charset = utf-8
+
+# Indentation settings
+indent_style = space
+indent_size = 2
+
+# Line endings
+end_of_line = lf
+
+# Trim trailing whitespaces
+trim_trailing_whitespace = true
+
+# Ensure a newline at the end of files
+insert_final_newline = true
+
+# JavaScript and TypeScript specific settings
+[*.js]
+[*.ts]
+# Use 4 spaces for indentation in JavaScript and TypeScript files
+indent_size = 4
+
+# Ignore minified JavaScript files
+[**.min.js]
+indent_style = ignore
