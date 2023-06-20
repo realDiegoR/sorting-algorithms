@@ -1,8 +1,8 @@
 {
   "name": "queue",
   "version": "1.0.0",
-  "description": "",
   "main": "queue.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.2.0",
     "clear": "^0.1.0"
-  }
+  },
+  "description": ""
 }
